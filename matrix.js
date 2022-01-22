@@ -80,5 +80,8 @@ canvas.height = ch;
 let frames = 0;
 
 class FallingChar {
-
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+    }
 }
