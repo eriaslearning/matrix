@@ -79,3 +79,6 @@ canvas.height = ch;
 
 let frames = 0;
 
+class FallingChar {
+
+}
