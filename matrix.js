@@ -73,3 +73,9 @@ let maxCharCount = 1000;
 let fallingCharArr = [];
 let fontSize = 15;
 let maxColumns = cw / fontSize;
+
+canvas.width = cw;
+canvas.height = ch;
+
+let frames = 0;
+
