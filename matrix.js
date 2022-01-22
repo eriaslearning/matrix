@@ -68,3 +68,8 @@ let charArr = [
   "8",
   "9",
 ];
+
+let maxCharCount = 1000;
+let fallingCharArr = [];
+let fontSize = 15;
+let maxColumns = cw / fontSize;
