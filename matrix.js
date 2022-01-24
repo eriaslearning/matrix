@@ -7,18 +7,6 @@ let ch = window.innerHeight;
 canvas.width = cw;
 canvas.height = ch;
 
-window.addEventListener(
-  "resize",
-  function (event) {
-    cw = window.innerWidth;
-    ch = window.innerHeight;
-    canvas.width = cw;
-    canvas.height = ch;
-    maxColumns = cw / fontSize;
-    console.log(cw, ch);
-  },
-  true
-);
 
 let charArr = [
   "a",
@@ -134,3 +122,16 @@ let update = () => {
 };
 
 update();
+
+window.addEventListener("resize", resize, true);
+
+function resize () {
+  cw = window.innerWidth;
+  ch = window.innerHeight;
+  canvas.width = cw;
+  canvas.height = ch;
+  maxColumns = cw / fontSize;
+  console.log(cw, ch);
+};
+
+setTimeout(resize, 100);
