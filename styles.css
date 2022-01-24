@@ -52,10 +52,6 @@ p {
 
 @keyframes boxAnimationIn {
     0% {
-        bottom: auto;
-        right: auto;
-    }
-    1% {
         top: 100%;
         left: 100%;
         bottom: 0;
