@@ -20,9 +20,7 @@ function removePagination() {
 var showBox = true;
 function toggleMainBox() {
   if (showBox) {
-    // mainBox.classList.add("boxAnimationOut");
     mainBox.style.animation = "boxAnimationOut 1s ease-in 0s 1 normal forwards";
-    console.log("f");
     showBox = false;
   } else if (!showBox) {
     mainBox.style.animation = "boxAnimationIn 1s ease-out 0s 1 normal forwards";
